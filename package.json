@@ -6,7 +6,8 @@
   "scripts": {
     "preinstall": "npm install --save mustache@latest node-minify@latest webfont@latest",
     "start": "node vg.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --fix \"app/**/*.js\" \"_node/**/*.js\""
   },
   "repository": {
     "type": "git",
